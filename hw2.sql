@@ -1,4 +1,7 @@
-select 'Мазур Наталья Игоревна Т120-101М-20';
+select 'Мазур Наталья Игоревна Т120-101М-20' as FIO;
+
+--сменить текущую схему
+set search_path to movie;
 
 --выбрать 10 записей из таблицы ratings
 select * from movie.ratings limit 10;
